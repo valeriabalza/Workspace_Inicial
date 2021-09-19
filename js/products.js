@@ -74,9 +74,11 @@ function showProductsList(){
 
         htmlContentToAppend += `
         <div class="list-group-item list-group-item-action">
+        <a href="product-info.html">
             <div class="row">
                 <div class="col-3">
                     <img src="` + producto.imgSrc + `" alt="Img${producto.name}" class="img-thumbnail">
+                  
                 </div>
                 <div class="col">
                     <div class="d-flex w-100 justify-content-between">
@@ -89,6 +91,7 @@ function showProductsList(){
                    </div>
                </div>
             </div>
+            </a>
         </div>
         `
 
